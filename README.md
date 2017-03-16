@@ -20,3 +20,5 @@ INSTALOOK - предварительное название.
 -можем гриднуть фото на 3\6\9 частей для “панорамного поста”
 
 -мб стоит припилить сюда еще и использование камеры, но я хз, нах оно этим юзерам сдалось
+
+https://docs.google.com/document/d/1-xfFpLEqeyMxrGMEuuFwOe0JbI0elBvPC8olJACZD2Y/edit?usp=sharing
