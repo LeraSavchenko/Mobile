@@ -22,3 +22,7 @@ INSTALOOK - предварительное название.
 -мб стоит припилить сюда еще и использование камеры, но я хз, нах оно этим юзерам сдалось
 
 https://docs.google.com/document/d/1-xfFpLEqeyMxrGMEuuFwOe0JbI0elBvPC8olJACZD2Y/edit?usp=sharing
+
+Прототип(в процессе разработки, можно комментировать):
+
+https://www.fluidui.com/editor/live/comment/cF9EREpaSmxIdWZQQ29kU3BkQmlUYzFvSlJWNUo1NHpmRQ==
