@@ -23,6 +23,10 @@ INSTALOOK - предварительное название.
 
 https://docs.google.com/document/d/1-xfFpLEqeyMxrGMEuuFwOe0JbI0elBvPC8olJACZD2Y/edit?usp=sharing
 
+Требования:
+
+-Android 4.3 и выше(тестить скорее всего будем на Samsung Galaxy S3)
+
 Прототип(в процессе разработки, можно комментировать):
 
 https://www.fluidui.com/editor/live/comment/cF9EREpaSmxIdWZQQ29kU3BkQmlUYzFvSlJWNUo1NHpmRQ==
