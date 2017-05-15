@@ -4,6 +4,14 @@
         "source": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.png"
     },
     {
+        "merged": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\logo.png",
+        "source": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\background.png",
+        "source": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
         "merged": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\background.png",
         "source": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\src\\main\\res\\drawable-ldpi\\background.png"
     },
@@ -22,5 +30,9 @@
     {
         "merged": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\logo.png",
         "source": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.png"
     }
 ]

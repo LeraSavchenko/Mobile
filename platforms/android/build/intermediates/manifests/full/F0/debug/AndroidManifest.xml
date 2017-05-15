@@ -20,7 +20,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.0" />
+        android:value="25.3.1" />
 
     <application
         android:name="com.tns.NativeScriptApplication"

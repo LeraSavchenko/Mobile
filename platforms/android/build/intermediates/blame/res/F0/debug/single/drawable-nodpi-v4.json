@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-nodpi-v4\\splash_screen.xml",
         "source": "C:\\Users\\AlexP\\HelloWorld\\platforms\\android\\src\\main\\res\\drawable-nodpi\\splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-nodpi-v4\\splash_screen.xml",
+        "source": "C:\\Users\\Lera\\Desktop\\Insta\\Mobile\\platforms\\android\\src\\main\\res\\drawable-nodpi\\splash_screen.xml"
     }
 ]

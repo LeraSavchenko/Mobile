@@ -1,0 +1,11 @@
+<Page loaded="pageLoaded">
+
+  <StackLayout orientation="vertical">
+    <Label text="INSTASMTH" />
+	  
+	<TextField hint="Your insta @" />
+    <TextField hint="Password" secure="true" />
+
+    <Button text="Connect" />
+  </StackLayout>
+</Page>

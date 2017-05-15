@@ -1,0 +1,11 @@
+
+<Page loaded="loaded">
+	<Page.actionBar>
+    	<ActionBar title="@username"/>
+  	</Page.actionBar>
+	
+  <GridLayout orientation="vertical">
+	
+  </GridLayout>
+	
+</Page>
