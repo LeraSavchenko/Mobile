@@ -10,10 +10,10 @@
 			<Label text="Easily." />
 		</StackLayout>
 
-		<TextField hint="Your insta @" />
-    	<TextField hint="Password" secure="true" />
+		<TextField id = "login" text = "{{ login }}" hint="Your insta @" />
+    	<TextField id = "password" text = "{{ password }}" hint="Password" secure="true" />
 
-    	<Button text="Connect" tap="connect" tap="redirect"/>
+    	<Button text="Connect" tap="connect" />
 
 		<Label text="Developed by CodeCat" class="creds"/>
   </StackLayout>

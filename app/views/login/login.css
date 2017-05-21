@@ -10,12 +10,12 @@ TextField {
 }
 
 .labels {
-	margin: 10 0 80 5%;
+	margin: 15 0 80 5%;
 	font-size: 16;
 }
 
 .creds {
 	font-style: italic;
 	margin: 120 auto 0;
-	width: 50%;
+	width: 40%;
 }

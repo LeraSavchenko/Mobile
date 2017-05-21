@@ -1,11 +1,23 @@
-
 <Page loaded="pageLoaded">
 	<Page.actionBar>
     	<ActionBar title="@username"/>
   	</Page.actionBar>
-
-  <GridLayout orientation="vertical">
-
-  </GridLayout>
-
+	<GridLayout columns="*" rows="*, 50" orientation="vertical">
+	<ScrollView col="0" row="0">
+  		<GridLayout columns="*, *, *" rows="120,120,120,120,120,120,120,120,120" orientation="vertical" class="gallery">
+			<Image col="0" row="0" src="~/images/1.jpg"/>
+    		<Image col="1" row="0" src="~/images/1.jpg"/>
+    		<Image col="2" row="0" src="~/images/1.jpg"/>
+			<Image col="0" row="1" src="~/images/1.jpg"/>
+			<Image col="1" row="2" src="~/images/1.jpg"/>
+			<Image col="2" row="3" src="~/images/1.jpg"/>
+		</GridLayout>
+	</ScrollView>
+	<GridLayout col="0" row="1" columns="*, *, *, *" rows="50" orientation="vertical">
+    		<Button text="Add" col="0" row="0" tap="addPhoto"/>
+    		<Button text="Camera" col="1" row="0" tap="openCamera"/>
+    		<Button text="Smth" col="2" row="0" />
+			<Button text="Log Out" col="3" row="0" tap="logout"/>
+	</GridLayout>
+	</GridLayout>
 </Page>
