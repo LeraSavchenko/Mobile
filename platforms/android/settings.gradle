@@ -1,4 +1,4 @@
-rootProject.name = "HelloWorld"
+rootProject.name = "INSTASMTH"
 include "asbg"
 project(":asbg").projectDir = file("build-tools/android-static-binding-generator")
 

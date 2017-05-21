@@ -1,0 +1,118 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-sidedrawer",
+        "scope": null,
+        "escapedName": "nativescript-sidedrawer",
+        "name": "nativescript-sidedrawer",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\Dropbox\\Study\\ThirdYear\\SecondSemester\\Mobile\\INSTASMTH"
+    ]
+  ],
+  "_from": "nativescript-sidedrawer@latest",
+  "_id": "nativescript-sidedrawer@1.0.6",
+  "_inCache": true,
+  "_location": "/nativescript-sidedrawer",
+  "_nodeVersion": "7.8.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-sidedrawer-1.0.6.tgz_1492526100922_0.5289720164146274"
+  },
+  "_npmUser": {
+    "name": "roblav96",
+    "email": "roblav96@gmail.com"
+  },
+  "_npmVersion": "4.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-sidedrawer",
+    "scope": null,
+    "escapedName": "nativescript-sidedrawer",
+    "name": "nativescript-sidedrawer",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-sidedrawer/-/nativescript-sidedrawer-1.0.6.tgz",
+  "_shasum": "c424feb754bb77641ea89bef51c1d59d01690d0f",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-sidedrawer",
+  "_where": "D:\\Dropbox\\Study\\ThirdYear\\SecondSemester\\Mobile\\INSTASMTH",
+  "author": {
+    "name": "Rob Laverty",
+    "email": "roblav96@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gethuman/nativescript-sidedrawer/issues"
+  },
+  "dependencies": {},
+  "description": "SideDrawer menu plugin for Nativescript - iOS/Android.",
+  "devDependencies": {
+    "tns-core-modules": "latest",
+    "tns-platform-declarations": "latest",
+    "typescript": "latest"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c424feb754bb77641ea89bef51c1d59d01690d0f",
+    "tarball": "https://registry.npmjs.org/nativescript-sidedrawer/-/nativescript-sidedrawer-1.0.6.tgz"
+  },
+  "gitHead": "f2bf34b6b9371933fa5b9cdcf86adec69a52d6c6",
+  "homepage": "https://github.com/gethuman/nativescript-sidedrawer",
+  "keywords": [
+    "main",
+    "menu",
+    "mainmenu",
+    "side",
+    "drawer",
+    "sidedrawer",
+    "nativescript",
+    "ecosystem:nativescript",
+    "nativescript-android",
+    "nativescript-ios",
+    "JavaScript",
+    "Android",
+    "iOS"
+  ],
+  "license": "MIT",
+  "main": "nativescript-sidedrawer",
+  "maintainers": [
+    {
+      "name": "roblav96",
+      "email": "roblav96@gmail.com"
+    }
+  ],
+  "name": "nativescript-sidedrawer",
+  "nativescript": {
+    "platforms": {
+      "android": "2.3.0",
+      "ios": "2.3.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "# NativeScript-SideDrawer\nA Nativescript plugin that allows developers to simply integrate the infamous side drawer pattern.\n\niOS |  Android\n-------- | ---------\n![iOS](http://i.imgur.com/cnKqRJl.gif) | ![Android](http://i.imgur.com/KsfRZLl.gif)\n\n## Features\n- Smooth animations\n- Pull from side of screen\n- Rebound/bounce back open\n- Tap off drawer to close\n- Follows both Material and Human Interface guidelines\n\n## Installation\n```bash\ntns plugin add nativescript-sidedrawer\n```\n\n## Example\nImport the plugin.\n```typescript\nimport { TnsSideDrawer } from 'nativescript-sidedrawer'\n```\n\nBuild the drawer with `TnsSideDrawer.build` passing config options.\n```typescript\nTnsSideDrawer.build({\n\ttemplates: [{\n\t\ttitle: 'Home',\n\t\tandroidIcon: 'ic_home_white_24dp',\n\t\tiosIcon: 'ic_home_white',\n\t}, {\n\t\ttitle: 'Judgment Day',\n\t\tandroidIcon: 'ic_gavel_white_24dp',\n\t\tiosIcon: 'ic_gavel_white',\n\t}, {\n\t\ttitle: 'Bank Roll',\n\t\tandroidIcon: 'ic_account_balance_white_24dp',\n\t\tiosIcon: 'ic_account_balance_white',\n\t}, {\n\t\ttitle: 'Fix Stuff',\n\t\tandroidIcon: 'ic_build_white_24dp',\n\t\tiosIcon: 'ic_build_white',\n\t}, {\n\t\ttitle: 'This Is Me',\n\t\tandroidIcon: 'ic_account_circle_white_24dp',\n\t\tiosIcon: 'ic_account_circle_white',\n\t}],\n\ttitle: 'This App Name',\n\tsubtitle: 'is just as awesome as this subtitle!',\n\tlistener: (index) => {\n\t\tthis.i = index\n\t},\n\tcontext: this,\n})\n```\n\nToggle the side drawer with `TnsSideDrawer.toggle`.\n```typescript\nTnsSideDrawer.toggle()\n```\n\n## Configuration\n### Drawer\n```typescript\nTnsSideDrawerOptions {\n\ttemplates: Array<TnsSideDrawerItem> // see below\n\ttextColor?: Color // color of all text including title, subtitle, and items\n\theaderBackgroundColor?: Color\n\tbackgroundColor?: Color // background color under the header\n\tlogoImage?: ImageSource // defaults to your app icon\n\ttitle?: string // large text in the header\n\tsubtitle?: string // small text in the header\n\tlistener: TnsSideDrawerOptionsListener // see below\n\tcontext?: any // see below\n}\n```\n\n### Templates\nTemplate icons **MUST** be a [resource](https://docs.nativescript.org/ui/images#load-images-from-a-resource) string.\n```typescript\nTnsSideDrawerItem {\n\ttitle: string\n\tandroidIcon?: string\n\tiosIcon?: string\n}\n```\n\n### Listener\nThe listener function **ONLY** gets called everytime a drawer item is successfully tapped.\n```typescript\ntype TnsSideDrawerOptionsListener = (index: number) => void\n```\nYou can optionally pass a *this context* to the `context` option.\n\n## iOS Quirks\nBecause you can drag the edge of your screen to go back,\n\n![back](https://cnet2.cbsistatic.com/img/MYRiTUkuSzBgOWfQnNPEYKnWmsY=/370x0/2013/09/12/cf8cd607-6de0-11e3-913e-14feb5ca9861/iOS_7_Gestures_Back.jpg)\n\nyou'll need to manually add and remove the gesture recognition by calling their methods and passing the `Page` instance. \n\nLet's say this is your home page.\n```typescript\nexport function onLoaded(args: EventData) {\n\tlet page: Page = <Page>args.object\n\tTnsSideDrawer.addGesture(page)\n}\nexport function onUnloaded(args: EventData) {\n\tlet page: Page = <Page>args.object\n\tTnsSideDrawer.removeGesture(page)\n}\n```\n\n## Android Quirks\nNone.\n\n# Thanks to\n[mikepenz](https://github.com/mikepenz) for the Android [MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) implementation.\n\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gethuman/nativescript-sidedrawer.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo && tns emulate ios",
+    "demo.ios.device": "npm run preparedemo && cd demo && tns run ios",
+    "postclone": "npm i && node scripts/postclone.js",
+    "preparedemo": "npm run build && cd demo && tns plugin remove nativescript-sidedrawer && tns plugin add .. && tns install",
+    "setup": "npm i && cd demo && npm i && cd .. && npm run build && cd demo && tns plugin add .. && cd .."
+  },
+  "typings": "index.d.ts",
+  "version": "1.0.6"
+}

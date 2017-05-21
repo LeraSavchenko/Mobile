@@ -1,5 +1,8 @@
 {
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
   "main": "app.js",
-  "name": "INSTASMTH",
-  "version": "1.0.1"
+  "name": "tns-template-hello-world",
+  "version": "3.0.0"
 }

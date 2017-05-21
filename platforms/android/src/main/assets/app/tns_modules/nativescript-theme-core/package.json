@@ -10,17 +10,17 @@
         "spec": ">=1.0.2 <1.1.0",
         "type": "range"
       },
-      "C:\\Users\\AlexP\\HelloWorld\\node_modules\\nativescript-template-tutorial"
+      "D:\\Dropbox\\Study\\ThirdYear\\SecondSemester\\Mobile\\INSTASMTH\\node_modules\\tns-template-hello-world"
     ]
   ],
   "_from": "nativescript-theme-core@>=1.0.2 <1.1.0",
-  "_id": "nativescript-theme-core@1.0.3",
+  "_id": "nativescript-theme-core@1.0.4",
   "_inCache": true,
   "_location": "/nativescript-theme-core",
   "_nodeVersion": "6.9.1",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/nativescript-theme-core-1.0.3.tgz_1488352707954_0.5508268822450191"
+    "tmp": "tmp/nativescript-theme-core-1.0.4.tgz_1492482511556_0.6798382652923465"
   },
   "_npmUser": {
     "name": "walkerrunpdx",
@@ -38,13 +38,13 @@
     "type": "range"
   },
   "_requiredBy": [
-    "/nativescript-template-tutorial"
+    "/tns-template-hello-world"
   ],
-  "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.3.tgz",
-  "_shasum": "2d77dd6f1a1095d2a4968426c5bb33d8f825d7cd",
+  "_resolved": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.4.tgz",
+  "_shasum": "cf2880c7fbf2fe5f43e2235d309750790803efe1",
   "_shrinkwrap": null,
   "_spec": "nativescript-theme-core@~1.0.2",
-  "_where": "C:\\Users\\AlexP\\HelloWorld\\node_modules\\nativescript-template-tutorial",
+  "_where": "D:\\Dropbox\\Study\\ThirdYear\\SecondSemester\\Mobile\\INSTASMTH\\node_modules\\tns-template-hello-world",
   "author": {
     "name": "Telerik",
     "email": "support@telerik.com"
@@ -57,8 +57,8 @@
   "devDependencies": {},
   "directories": {},
   "dist": {
-    "shasum": "2d77dd6f1a1095d2a4968426c5bb33d8f825d7cd",
-    "tarball": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.3.tgz"
+    "shasum": "cf2880c7fbf2fe5f43e2235d309750790803efe1",
+    "tarball": "https://registry.npmjs.org/nativescript-theme-core/-/nativescript-theme-core-1.0.4.tgz"
   },
   "homepage": "https://www.nativescript.org",
   "license": "Apache-2.0",
@@ -84,11 +84,12 @@
     }
   },
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "readme": "# NativeScript Theme: Core\r\n\r\nCore NativeScript theme including a light (default), dark, and (11 additional: aqua, blue, brown, forest, grey, lemon, lime, orange, purple, ruby, sky) color schemes for iOS and Android.\r\n\r\n## Install\r\n\r\n`npm install nativescript-theme-core --save`\r\n\r\n## Documentation\r\n\r\nhttp://docs.nativescript.org/ui/theme\r\n\r\n## Preview\r\n\r\n![Multiple Platforms](http://docs.nativescript.org/img/theme/color-schemes-all.png)\r\n\r\n## License\r\n\r\nThis is Licensed under the Apache License ",
+  "readmeFilename": "readme.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NativeScript/theme.git"
   },
   "scripts": {},
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

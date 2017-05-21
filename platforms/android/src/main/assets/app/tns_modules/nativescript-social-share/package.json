@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "nativescript-social-share",
+        "scope": null,
+        "escapedName": "nativescript-social-share",
+        "name": "nativescript-social-share",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "D:\\Dropbox\\Study\\ThirdYear\\SecondSemester\\Mobile\\INSTASMTH"
+    ]
+  ],
+  "_from": "nativescript-social-share@latest",
+  "_id": "nativescript-social-share@1.3.2",
+  "_inCache": true,
+  "_location": "/nativescript-social-share",
+  "_nodeVersion": "6.9.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/nativescript-social-share-1.3.2.tgz_1484341019170_0.22287221532315016"
+  },
+  "_npmUser": {
+    "name": "tjvantoll",
+    "email": "tj.vantoll@gmail.com"
+  },
+  "_npmVersion": "3.10.8",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nativescript-social-share",
+    "scope": null,
+    "escapedName": "nativescript-social-share",
+    "name": "nativescript-social-share",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-social-share/-/nativescript-social-share-1.3.2.tgz",
+  "_shasum": "ebf85657251f4bc159981ec8d65c861ef5562722",
+  "_shrinkwrap": null,
+  "_spec": "nativescript-social-share",
+  "_where": "D:\\Dropbox\\Study\\ThirdYear\\SecondSemester\\Mobile\\INSTASMTH",
+  "author": {
+    "name": "TJ VanToll",
+    "email": "tj.vantoll@gmail.com",
+    "url": "http://tjvantoll.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/tjvantoll/nativescript-social-share/issues"
+  },
+  "dependencies": {},
+  "description": "A NativeScript module to use the native social sharing widget",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "ebf85657251f4bc159981ec8d65c861ef5562722",
+    "tarball": "https://registry.npmjs.org/nativescript-social-share/-/nativescript-social-share-1.3.2.tgz"
+  },
+  "gitHead": "4373497fa9775d8d2c2afe95b5df9b13f94e51bc",
+  "homepage": "https://github.com/tjvantoll/nativescript-social-share",
+  "keywords": [
+    "NativeScript"
+  ],
+  "license": "MIT",
+  "main": "social-share",
+  "maintainers": [
+    {
+      "name": "tjvantoll",
+      "email": "tj.vantoll@gmail.com"
+    }
+  ],
+  "name": "nativescript-social-share",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.4.0",
+      "android": "1.4.0"
+    }
+  },
+  "optionalDependencies": {},
+  "readme": "# NativeScript Social Share Plugin\n\nA NativeScript plugin to use the native social sharing widget on Android and iOS. Currently this module supports image and text sharing.\n\n![](screenshots/ios.png)\n![](screenshots/android.png)\n\n## Installation\n\nRun the following command from the root of your project:\n\n```\n$ tns plugin add nativescript-social-share\n```\n\nThis command automatically installs the necessary files, as well as stores nativescript-social-share as a dependency in your project's `package.json` file.\n\n\n## Usage\n\nTo use the social share module you must first `require()` it. After you `require()` the module you have access to its APIs.\n\n``` JavaScript\n// ------------ JavaScript ------------------\nvar SocialShare = require(\"nativescript-social-share\");\n\n// ------------- TypeScript ------------------\nimport * as SocialShare from \"nativescript-social-share\";\n```\n\n## API\n\n### shareImage(ImageSource image, [optional] String subject)\n\nThe `shareImage()` method expects an [`ImageSource`](http://docs.nativescript.org/ApiReference/image-source/ImageSource.html) object. The code below loads an image from the app and invokes the share widget with it:\n\n``` JavaScript\n// ------------ JavaScript ------------------\nvar SocialShare = require(\"nativescript-social-share\");\nvar imageSourceModule = require(\"image-source\");\n\nvar image = imageSourceModule.fromFile(\"~/path/to/myImage.jpg\");\nSocialShare.shareImage(image);\n\n// ------------- TypeScript ------------------\nimport * as SocialShare from \"nativescript-social-share\";\nimport { ImageSource } from \"image-source\";\n\nlet image = ImageSource.fromFile(\"~/path/to/myImage.jpg\");\nSocialShare.shareImage(image);\n```\n\nYou can optionally provide a second argument to configure the subject on Android:\n\n``` JavaScript\nSocialShare.shareImage(image, \"How would you like to share this image?\");\n```\n\n### shareText(String text, [optional] String subject)\n\nThe `shareText()` method expects a simple string:\n\n``` js\nSocialShare.shareText(\"I love NativeScript!\");\n```\n\nLike `shareImage()`, you can optionally pass `shareText()` a second argument to configure the subject on Android:\n\n``` js\nSocialShare.shareText(\"I love NativeScript!\", \"How would you like to share this text?\");\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjvantoll/nativescript-social-share.git"
+  },
+  "scripts": {},
+  "typings": "index.d.ts",
+  "version": "1.3.2"
+}
